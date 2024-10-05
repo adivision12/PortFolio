@@ -6,7 +6,7 @@ let typed =new Typed(".text",{
     loop:true
 })
 let typed2 =new Typed(".para",{
-    strings:['You Can Connect Me Through givern link also'],
+    strings:['You Can Connect Me Through given link also'],
     typeSpeed:100,
     backSpeed:10,
     backDelay:1000,
