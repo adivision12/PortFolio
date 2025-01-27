@@ -325,7 +325,7 @@ body{
     justify-content: space-around;
     
 }
-.img1,.img2,.img3,.img4,.img5,.img6{
+.img1,.img2,.img3,.img4,.img5,.img6,.chat-img{
     background-image: url("h-c-img.png");
     height: 150px;
     width: 150px;
@@ -354,6 +354,10 @@ body{
 }
 .img4{
     background-image: url("weather2.png");
+}
+.chat-img{
+    background-image: url("chatIMG.jpg");
+    height: 140px;
 }
 .card1,.card2,.card3{
     /* margin-left: 150px; */
