@@ -56,7 +56,7 @@ let btn=document.getElementById('btn');
      progressStartValue4= 0,
 
     EndValue1= 80,
-    EndValue2= 70,
+    EndValue2= 80,
     EndValue3= 60,
     EndValue4= 50,
 

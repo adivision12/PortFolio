@@ -206,7 +206,9 @@ body{
 .sec3-content p{
     font-size: .8rem;
 }
-
+.java i{
+    font-size: 2rem;
+}
 
 
  .progress{
@@ -239,7 +241,7 @@ body{
     width: 70%;
 }
 
-.html-progress span{
+.html-progress span,.java span{
     width: 90%;
 }
 .js-progress span{
@@ -249,7 +251,7 @@ body{
     width: 60%;
 }
 .C-progress span{
-    width: 85%;
+    width: 70%;
 }
 
 .progress span::after{
@@ -276,7 +278,10 @@ body{
     content: "60%";
 }
 .C-progress span::after{
-    content: "85%";
+    content: "70%";
+}
+.Java-progress span::after{
+    content: "90%";
 }
 
 
