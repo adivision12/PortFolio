@@ -331,7 +331,7 @@ body{
     
 }
 .img1,.img2,.img3,.img4,.img5,.img6,.chat-img{
-    background-image: url("h-c-img.png");
+    background-image: url("ProConnect.png");
     height: 150px;
     width: 150px;
     background-size:contain ;
@@ -339,7 +339,12 @@ body{
     border-top-right-radius:20px ;
     
 }
-.img1:hover,.img2:hover,.img3:hover,.img4:hover,.img5:hover,.img6:hover{
+.img1{
+    background-image: url("ProConnect.png");
+    height: 120px;
+
+}
+.img2:hover,.img3:hover,.img4:hover,.img5:hover,.img6:hover{
     height: 155px;
     width: 155px;
 }
@@ -360,10 +365,14 @@ body{
 .img4{
     background-image: url("weather2.png");
 }
-.chat-img{
+.chat-img,.proConnect-img{
     background-image: url("chatIMG.jpg");
     height: 140px;
 }
+/* .proConnect-img{
+    background-image: url("chatIMG.jpg");
+     height: 120px;
+} */
 .card1,.card2,.card3{
     /* margin-left: 150px; */
     padding: 30px;
@@ -444,9 +453,7 @@ body{
     /* justify-content: center;
     align-items: center; */
 }
-.contact2{
-    /* z-index: -1; */
-}
+
 .contact2 form{
     height: 300px;
     width: 280px;
